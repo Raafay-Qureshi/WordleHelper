@@ -1,6 +1,12 @@
+#importing the os module
+import os
+
+#to get the current working directory
+directory = os.getcwd()
+
 def run():
     # Get full Wordle List from wordleBank.txt
-    with open('C:\Raafay\Coding\Python\Wordle\src\com\\raafay\wordle\wordleBank.txt') as f:
+    with open(f'{directory}\src\com\\raafay\wordle\wordleBank.txt') as f:
         content = f.readlines()
     wordleList = [x.strip() for x in content]
 

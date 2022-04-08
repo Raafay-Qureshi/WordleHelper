@@ -1,3 +1,3 @@
 @echo off
-"C:\Users\super\anaconda3\python.exe" "C:\Raafay\Coding\Python\Wordle\src\com\raafay\wordle\wordle.py"
+"C:\Users\super\AppData\Local\Microsoft\WindowsApps\python.exe" "C:\Raafay\Coding\Python\Wordle\src\com\raafay\wordle\wordle.py"
 pause
